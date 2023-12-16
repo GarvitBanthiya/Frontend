@@ -1,0 +1,77 @@
+/* Color Styling in CSS */
+body {
+    background-color: rgb(162, 143, 186);
+}
+.heading {
+    background-color: #c9622a;
+}
+.para {
+    background-color: rgba(51, 170, 51, 0.3);
+}
+
+/* Measurements - Margin, Padding, Dimensions,  */
+.box {
+    background-color: aqua;
+    width: 200px;
+    height: 100px;
+    font-size: 2.25rem;  /* 1em = 16px */
+}
+.heading{
+    /* width: 40%; */
+    height: 100px;
+    /* margin: 100px 300px 30px 50px; /* TRBL */
+    margin: 100px 200px; /* Vertical Horizontal */
+    /* margin: 30px; */
+    /* margin-left: 50px; */
+    padding: 30px;
+}
+.para{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    /* padding-left: 50%;
+    padding-right: 50%; */
+}
+img{
+    width: 150px;
+    height: 150px;
+    border: 10px solid red; /* width style color */
+    border-radius: 100%;
+}
+.box{
+    text-align: center;
+    border-radius: 50px;
+}
+
+/* Display & Position */
+h3{
+    display: inline;
+}
+span{
+    display: inline-block;
+    width: 80px;
+}
+div{
+    /* display: inline-block; */
+    width: 100px;
+    height: 100px;
+}
+*{
+    /* margin: 0px; */
+}
+.bbox1{
+    background-color: red;
+    /* position:relative; */
+}
+.bbox2{
+    background-color: green;
+    position: absolute;
+    /* margin-block-end: -50px; */
+}
+.bbox3{
+    background-color: blue;
+    position: relative;
+    bottom: -300px;
+    left: 50px;
+    margin-block-start: 50px;
+}

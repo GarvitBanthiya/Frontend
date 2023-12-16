@@ -1,0 +1,39 @@
+/* Type Selector */
+body{
+    color:cadetblue;
+    background-color:navajowhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Class Selector */
+.first{
+    color:black;
+}
+.large{
+    font-size: 30px;
+}
+
+/* Id Selector */
+#eklist{
+    background-color: brown;
+}
+
+/* Attribute Selector */
+a[href="upfairs.com"]{
+    color:red;
+    text-decoration:none;
+}
+input[type="text"]{
+    background-color:black;
+    color:white;
+}
+
+/* Pseudo Selector */
+.first:hover{
+    color:white;
+}
+
+/* Universal Selector */
+*{
+    margin: 5%;
+}

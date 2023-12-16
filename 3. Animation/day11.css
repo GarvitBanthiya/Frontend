@@ -1,0 +1,68 @@
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    animation: colorChanger 3s infinite;
+    margin: auto;
+    animation-timing-function: ease-out;
+    
+}
+@keyframes colorChanger{
+    0%{
+        background-color: red;
+        transform: scale(0.3);
+        /* transform: translate(0,0); */
+    }
+    50%{
+        background-color: green;
+        transform: scale(1);
+        /* transform: translate(0,50px); */
+    }
+    100%{
+        background-color: blue;
+        transform: scale(0.3);
+        /* transform:translate(0,300px); */
+    }
+}
+.left{
+    display:inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: red;
+    animation-name: leftWala;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.right{
+    display:inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: blue;
+    animation-name: rightWala;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes leftWala {
+    0%{
+        transform: translate(0px,0px);
+    }
+    50%{
+        transform: translate(200px,200px);
+    }
+    100%{
+        tranform: translate(400px,0px);
+    }
+}
+@keyframes rightWala {
+    0%{
+        transform: translate(300px,0px);
+    }
+    50%{
+        transform: translate(100px,200px);
+    }
+    100%{
+        transform: translate(-100px,0px);
+    }
+}
